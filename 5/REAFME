@@ -1,0 +1,2 @@
+Function takes un-sorted array contains numbers from 0 to 9. 
+The Function shall return true if all numbers exist and false if not.
