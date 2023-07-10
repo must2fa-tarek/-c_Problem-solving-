@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1685894893 source:c:\users\hp\desktop\sorting\sorting\project.c
+	<stdio.h>
+	<stdlib.h>
+	"project.h"
+
+1685891686 c:\users\hp\desktop\sorting\sorting\project.h
+
+1685896063 source:c:\users\hp\desktop\sorting\sorting\main.c
+	<stdio.h>
+	<stdlib.h>
+	"project.h"
+
