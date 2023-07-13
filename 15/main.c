@@ -10,6 +10,15 @@ int main()
     scanf("%lf", &number);
     printf(" Enter the nth root  ( must not equal zero) : ");
     scanf("%lf", &power1);
+     if (power1 == 0)
+    {
+        while (power1 == 0)
+        {
+            printf(" please enter the root ( must not equal zero) : ");
+            scanf("%lf", &power1);
+        }
+    }
+    else {}
 
     power2 = 1 / power1;
     result = root(number, power2);
