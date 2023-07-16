@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-//  function to get the nth root of a number.
+//  function to get the any root to any number.
 double root(double number, double power2);
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     scanf("%lf", &number);
     printf(" Enter the nth root  ( must not equal zero) : ");
     scanf("%lf", &power1);
-     if (power1 == 0)
+    if (power1 == 0)
     {
         while (power1 == 0)
         {
@@ -18,7 +18,7 @@ int main()
             scanf("%lf", &power1);
         }
     }
-    else {}
+    else {} 
 
     power2 = 1 / power1;
     result = root(number, power2);
